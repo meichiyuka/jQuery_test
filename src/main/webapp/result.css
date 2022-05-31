@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+	width:80%;
+	margin:auto;
+}
+
+.slideLeft, .slideRight{
+	background:white;
+	width:50%;
+}
+
+.slideLeft{
+  display: block;
+  margin-left: -100%;
+  transition: 0.4s;
+}
+
+.slideRight{
+  display: block;
+  margin-left: 100%;
+  transition: 0.4s;
+}
+
+.activeL{
+  margin-left: 0;
+}
+
+.activeR{
+  margin-left: 50%;
+}

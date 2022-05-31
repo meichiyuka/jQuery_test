@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+h3{
+	clear:both;
+	text-align:center;
+}
+
+.result{
+	border: solid;
+	width:100%;
+	border-collapse:  collapse;
+}
+
+th,td {
+    border: solid 1px;
+    padding:10px;
+}
+
+th{
+	background:#3B4C7A;
+	color:#fff;
+}
+
+td{
+	background: #eee;
+}
+
+tr:nth-child(odd) td {
+	background: #fff;
+}
+
+.topBtn, .bottomBtn{
+	text-align:right;
+	float:right;
+	margin:5px 30px 20px 0;
+}
+
+.top, .logout{
+	float:left;
+	margin-left:5px;
+}
+
+.returnTop,.returnLogin{
+	text-align:left;
+	font-size:15px;
+	color:white;
+	background:#5c6bc0;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+}
+
+.returnLogin:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+.returnTop:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}

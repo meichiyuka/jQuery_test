@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+body{
+	width:60%;
+	margin:auto;
+}
+
+.topBtn, .bottomBtn{
+	text-align:right;
+	float:right;
+	margin:5px 120px 20px 0;
+}
+
+.top, .logout{
+	float:left;
+	margin-left:5px;
+}
+
+.returnTop,.returnLogin{
+	text-align:left;
+	font-size:15px;
+	color:white;
+	background:#5c6bc0;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+}
+
+.returnLogin:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+.returnTop:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+.qBrock{
+	margin-top:15px;
+	clear:both;
+    overflow:hidden;
+}
+
+.questionNum{
+	width:2%;
+	padding:8px 0px;
+	border:none;
+	border-radius:5px;
+}
+
+.questionTxt, .answerTxt{
+	width:80%;
+	padding:8px 0px;
+	border:none;
+	border-radius:5px;
+}
+
+.aBrock{
+	margin-top:5px;
+}
+
+.editBtn{
+	float:right;
+	margin-right:10px;
+}
+
+#edit ,#del{
+	float:left;
+	margin-right:3px;
+}
+
+.edit{
+	font-size:15px;
+	color:white;
+	background:#ffab91;
+	padding:5px 10px;
+	border:none;
+	border-radius:5px;
+}
+
+.del{
+	font-size:15px;
+	color:white;
+	background:#9e9e9e;
+	padding:5px 10px;
+	border:none;
+	border-radius:5px;
+}
+
+
+.edit:hover{
+	background:#ffccbc;
+	font-weight:bold;
+}
+
+.del:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+@media (max-width: 980px){
+body{
+	width:100%;
+	margin:0;
+}	
+ .editBtn{
+ display: none;
+ }
+ .questionTxt, .answerTxt{
+ 	padding:20px 0px;
+ }
+ .questionNum{
+ 	width:5%;
+ }
+}

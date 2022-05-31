@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+	background:#CBD5CF;
+	width:50%;
+	margin:auto;
+}
+
+.header{
+	margin:40px 0 40px 0;
+	text-align:center;
+	font-size:40px;
+	clear:both;
+	font-family: 'DotGothic16', sans-serif;
+}
+

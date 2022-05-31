@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+	width:50%;
+	margin:auto;
+}
+
+.topBtn, .bottomBtn{
+	text-align:right;
+	float:right;
+	margin:5px 80px 20px 0;
+}
+
+.top, .logout{
+	float:left;
+	margin-left:5px;
+}
+
+.returnTop,.returnLogin{
+	text-align:left;
+	font-size:15px;
+	color:white;
+	background:#5c6bc0;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+}
+
+.returnLogin:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+.returnTop:hover{
+	background:#b0bec5;
+	font-weight:bold;
+}
+
+.questionNum{
+	width: 20px;
+	padding:8px 0px;
+	border:none;
+	border-radius:5px;
+	vertical-align:top;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.qBrock{
+	clear:both;
+    overflow:hidden;
+}
+
+.questionTxt{
+	width:85%;
+    height:100px;
+    padding-right: 25px;
+	border:none;
+	border-radius:5px;
+}
+
+.answer{
+	margin-top:0;	
+}
+
+.AnswerTxt{
+	padding-right:70%;
+	border:none;
+	border-radius:5px;
+}
+
+.scoring{
+	text-align:left;
+	font-size:15px;
+	color:white;
+	background:#ffab91;
+	padding:10px 30px;
+	border:none;
+	border-radius:5px;
+}
+
+.scoring:hover{
+	background:#ffccbc;
+	font-weight:bold;
+}
